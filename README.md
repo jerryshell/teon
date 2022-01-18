@@ -36,6 +36,12 @@ https://github.com/jerryshell
 
 * bit.ly
 * reurl.cc
+* t.hk.uy
+* cn.hk.uy
+* x88.ltd
+* dwz.date
+* dwz.win
+* tinyurl.com
 
 ## Why is it called *The Eye of Nehaleni* ?
 
