@@ -42,6 +42,8 @@ https://github.com/jerryshell
 * dwz.date
 * dwz.win
 * tinyurl.com
+* kutt.appinn.net
+* dllzff.cn
 
 ## Why is it called *The Eye of Nehaleni* ?
 

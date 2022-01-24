@@ -46,4 +46,8 @@ async fn run_test() {
         run("https://kutt.appinn.net/eY1NJh").await.unwrap(),
         "http://www.nlc.cn/dsb_zyyfw/sytc/sp/"
     );
+    assert_eq!(
+        run("https://dllzff.cn/Quwzwuso").await.unwrap(),
+        "https://comm.tencentcs.com/sms/wxmp.html?t=weixin%3A%2F%2Fdl%2Fbusiness%2F%3Ft%3Dr59IGRxz51d"
+    )
 }
