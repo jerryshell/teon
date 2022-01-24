@@ -42,4 +42,8 @@ async fn run_test() {
     for test_url in test_url_list {
         assert_eq!(run(test_url).await.unwrap(), github_jerryshell);
     }
+    assert_eq!(
+        run("https://kutt.appinn.net/eY1NJh").await.unwrap(),
+        "http://www.nlc.cn/dsb_zyyfw/sytc/sp/"
+    );
 }
