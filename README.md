@@ -44,6 +44,7 @@ https://github.com/jerryshell
 * tinyurl.com
 * kutt.appinn.net
 * dllzff.cn
+* pingan.com
 
 ## Why is it called *The Eye of Nehaleni* ?
 

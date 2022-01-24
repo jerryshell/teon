@@ -38,16 +38,25 @@ async fn run_test() {
         "https://dwz.win/awDE",
         "https://tinyurl.com/y8x2m3le",
     ];
-    let github_jerryshell = "https://github.com/jerryshell";
     for test_url in test_url_list {
-        assert_eq!(run(test_url).await.unwrap(), github_jerryshell);
+        assert_eq!(
+            run(test_url).await.unwrap(),
+            "https://github.com/jerryshell"
+        );
     }
+
     assert_eq!(
         run("https://kutt.appinn.net/eY1NJh").await.unwrap(),
         "http://www.nlc.cn/dsb_zyyfw/sytc/sp/"
     );
+
     assert_eq!(
         run("https://dllzff.cn/Quwzwuso").await.unwrap(),
         "https://comm.tencentcs.com/sms/wxmp.html?t=weixin%3A%2F%2Fdl%2Fbusiness%2F%3Ft%3Dr59IGRxz51d"
-    )
+    );
+
+    assert_eq!(
+        run("https://pingan.com/rrjx").await.unwrap(),
+        "https://b.pingan.com.cn/creditcard/life/marketing/tt8/tt8.html?cid=ci0000001&outerid=rrjxqd001"
+    );
 }
