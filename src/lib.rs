@@ -59,4 +59,9 @@ async fn run_test() {
         run("https://pingan.com/rrjx").await.unwrap(),
         "https://b.pingan.com.cn/creditcard/life/marketing/tt8/tt8.html?cid=ci0000001&outerid=rrjxqd001"
     );
+
+    assert_eq!(
+        run("https://lg5.co/uRRmRisb").await.unwrap(),
+        "https://www.lagou.com/app/evoke-app/main.html?schema_path=lagou://lagou.com/sessionlist?bootSource=c_user_invite_callback"
+    );
 }
