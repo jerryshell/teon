@@ -26,6 +26,7 @@ pub async fn run(request_url: &str) -> Result<String> {
     Ok(response_url)
 }
 
+#[cfg(test)]
 mod tests {
     #[tokio::test]
     async fn test_run() {
