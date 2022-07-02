@@ -64,7 +64,7 @@ mod tests {
 
         assert_eq!(
             crate::run("https://lg5.co/uRRmRisb").await.unwrap(),
-            "https://www.lagou.com/app/evoke-app/main.html?schema_path=lagou://lagou.com/sessionlist?bootSource=c_user_invite_callback"
+            "https://www.lgstatic.com/app/evoke-app/main.html?schema_path=lagou://lagou.com/sessionlist?bootSource=c_user_invite_callback"
         );
     }
 }

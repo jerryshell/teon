@@ -11,7 +11,7 @@ struct Args {
 #[tokio::main]
 async fn main() -> Result<()> {
     let args = Args::parse();
-    let reponse_url = the_eye_of_nehaleni::run(&args.url).await?;
+    let reponse_url = teon::run(&args.url).await?;
     println!("{}", reponse_url);
     Ok(())
 }

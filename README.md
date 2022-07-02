@@ -4,17 +4,9 @@
 
 *The Eye of Nehaleni* is an open source short URL extender. Written in Rust.
 
-🏗 **This project is still in the early stages of development.**
-
-## Usage
-
 ```
-> ./the-eye-of-nehaleni
-the-eye-of-nehaleni 0.1.0
-github.com/jerryshell/the-eye-of-nehaleni
-
 USAGE:
-    the-eye-of-nehaleni --url <URL>
+    teon --url <URL>
 
 OPTIONS:
     -h, --help         Print help information
@@ -25,10 +17,10 @@ OPTIONS:
 ### Example
 
 ```
-> ./the-eye-of-nehaleni -u https://bit.ly/3A7vZoF
+> ./teon -u https://bit.ly/3A7vZoF
 https://github.com/jerryshell
 
-> ./the-eye-of-nehaleni -u https://reurl.cc/7eDRj5                      
+> ./teon -u https://reurl.cc/7eDRj5
 https://github.com/jerryshell
 ```
 
